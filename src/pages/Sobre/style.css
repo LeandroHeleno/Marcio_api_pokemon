@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: gold; /* Cor de fundo do corpo */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    font-size: 2rem;
+    color: #fff; /* Alterado para branco */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona contorno preto */
+    margin-bottom: 20px;    
+    font-size: 4rem;
+}
+
+.header {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    background-image: url('https://assets.pokemon.com/assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg'); /* URL da imagem de fundo */
+    background-size: cover; /* Cobrir todo o cabeçalho */
+    background-position: center; /* Centralizar a imagem */
+}
+
+.header img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.header div {
+    margin-bottom: 10px;
+}
+
+.text-white-black-border {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Adiciona contorno preto */
+}
+
+select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007bff; /* Cor do contorno quando selecionado */
+}
+
+..pokemon-image {
+    max-width: 400px; /* Largura máxima da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+
+.ficha-tecnica {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.ficha-tecnica-item {
+    padding: 10px;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+
+.ficha-tecnica-label {
+    font-weight: bold;
+}
+
+option {
+    background-color: #fff;
+    color: #333;
+}
+
+option:hover {
+    background-color: #007bff; /* Cor de fundo ao passar o mouse */
+    color: #fff;
+}
+
+.footer{    
+    font-size: 0.7rem;
+}
+
+.Links {
+    font-size: 2rem;
+    color: white; /* Fonte branca por padrão */
+    padding: 5px 10px; /* Adiciona espaço ao redor do texto */
+    
+}
+
+.Links:hover {
+    color: gold; /* Fonte branca por padrão */
+}
+
+.Links:active {
+    color: gold; /* Fonte branca por padrão */
+    text-decoration: none; /* Remove sublinhado padrão */
+    border: 1px solid black; /* Borda preta */
+    padding: 5px 10px; /* Adiciona espaço ao redor do texto */
+}
+
+
+.list,
+.list:focus {
+  background-color: gold; /* Cor de fundo da lista */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+  
