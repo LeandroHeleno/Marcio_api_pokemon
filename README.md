@@ -25,6 +25,11 @@ O Projeto Pokédex é uma aplicação web que fornece informações detalhadas s
   npm start
 4. Acesse a aplicação pelo seu navegador através do link gerado: [http://localhost:3000](http://localhost:3000)
 
+## Controle de Versão
+
+- **Repositório Git**: [https://github.com/LeandroHeleno/Marcio_api_pokemon](https://github.com/LeandroHeleno/Marcio_api_pokemon)
+- **Último Commit**: Criação do arquvo README.md.
+
 ## Funcionalidades
 
 - Explorar lista de Pokémon.
@@ -78,6 +83,11 @@ The Pokédex Project is a web application that provides detailed information abo
 3. Run the project in a development environment:
   npm start
 4. Access the application through your browser using the generated link: [http://localhost:3000](http://localhost:3000)
+
+## Version Control
+
+- **Git Repository**: [https://github.com/LeandroHeleno/Marcio_api_pokemon](https://github.com/LeandroHeleno/Marcio_api_pokemon)
+- **Last Commit**: Creation of the README.md file.
 
 ## Features
 
